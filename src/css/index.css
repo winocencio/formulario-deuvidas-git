@@ -1,0 +1,128 @@
+body {
+    background: #FBFBFB;
+}
+
+.link-navegacao{
+    padding: 30px;
+    font-weight: 500;
+}
+
+.cabecalho-logo {
+    background: #1C4D71;
+    width:100%;
+    height:68px;
+}
+
+.cabecalho-form {
+    width:100%;
+    height:82px;
+    background : #FFDA5D;
+}
+
+.logo{
+    margin-top: 13px;
+    width: 182;
+    height: 45;
+}
+
+.col{
+    padding: 0 0 !important;
+}
+
+.browser-default{
+    background: #FFFFFF;
+}
+
+textarea {
+    height: 134px;
+}
+
+.label {
+    font-family: Gotham, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    
+    color: #005A9C;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 725px){
+    .image-form{
+        position: absolute;
+        width: 117px;
+        height: 117px;
+        left: 25%;
+        top: 93px;
+    }
+}
+
+@media screen and (min-width: 1025px){
+    .container{
+        margin-top: 4%;
+        margin-left: 36%;
+        width: auto;
+    }
+
+    .browser-default {
+        padding: 5px;
+        border: 2px solid #005A9C;
+        font-size: 14px;
+        width: 460px;
+    }
+
+    .btn {
+        width: 203px;
+        height: 46px;
+        background: #005A9C;
+        border: 2px solid #005A9C;
+        box-sizing: border-box;
+        border-radius: 8px;
+    } 
+}
+
+@media screen and (max-width: 1025px){
+    .container{
+        margin-top: 25%;
+        margin-left: 5%;
+        width: auto;
+    }
+
+    .browser-default {
+        padding: 5px;
+        border: 2px solid #005A9C;
+        font-size: 14px;
+        width: 95%;
+    }
+
+    .div-button {
+        position: fixed;
+        bottom: 0;
+        z-index: 100;
+        background: #FFFFFF;
+    }
+
+    .btn {
+        justify-content: center;
+        height: 46px;
+        background: #005A9C;
+        border: 2px solid #005A9C;
+        box-sizing: border-box;
+        width: 90%;
+        margin-bottom: 5%;
+    } 
+}
+
+@media screen and (max-width: 725px){
+    .image-form{
+        position: absolute;
+        width: 117px;
+        height: 117px;
+        left: 5%;
+        top: 93px;
+    }
+}
+
+/* Mudar para ser responsivo */
